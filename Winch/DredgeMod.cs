@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using HarmonyLib;
 using JetBrains.Annotations;
+using UnityEngine;
 using Winch.AbyssApi;
 using Winch.AbyssApi.Extensions;
-using Winch.AbyssApi.Internal;
+using Winch.Api;
+using Winch.Api.Internal;
 using Winch.Core;
 using Winch.Logging;
 

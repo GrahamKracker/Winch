@@ -75,7 +75,7 @@ public class ModAssembly
     internal void ExecuteAssembly()
     {
         if (LoadedAssembly == null)
-            throw new NullReferenceException("Cannot execute assembly as LoadedAssembly is null");
+            throw new ArgumentNullException("Cannot execute assembly as LoadedAssembly is null");
 
         WinchCore.Log.Debug($"Initializing ModAssembly {LoadedAssembly.GetName().Name}...");
 
@@ -108,7 +108,7 @@ public class ModAssembly
                 throw new FormatException("MinWinchVersion not in correct format.");
 
             if (!VersionUtil.IsSameOrNewer(winchVer, minVer))
-                throw new Exception($"Mod requires a version ({minVer}) of Winch higher than the one installed  ({winchVer}).");
+                throw new InvalidDataException($"Mod requires a version ({minVer}) of Winch higher than the one installed  ({winchVer}).");
         }
     }
 

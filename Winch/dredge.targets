@@ -8,6 +8,10 @@
         <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
     </PropertyGroup>
 
+    <PropertyGroup Condition="'$(DontEmbedDebugSymbols)' != 'true'">
+        <DebugType>embedded</DebugType>
+    </PropertyGroup>
+
     <PropertyGroup Condition="'$(DontUseDredgeLibs)' == 'true'">
         <NoWarn>$(NoWarn);CS0436</NoWarn>
     </PropertyGroup>
@@ -23,9 +27,11 @@
 
     <ItemGroup Condition="'$(DontUseDredgeGameLibs)' == 'true'">
         <PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" Version="0.4.*" PrivateAssets="all"/>
+
         <Reference Include="$(Dredge)\DREDGE_Data\Managed\AeLa.EasyFeedback.dll" Private="false" Publicize="true"/>
         <Reference Include="$(Dredge)\DREDGE_Data\Managed\AeLa.EasyFeedback.Demo.dll" Private="false" Publicize="true"/>
         <Reference Include="$(Dredge)\DREDGE_Data\Managed\Antlr4.Runtime.Standard.dll" Private="false" Publicize="true"/>
+        <Reference Include="$(Dredge)\DREDGE_Data\Managed\Assembly-CSharp.dll" Private="false" Publicize="true"/>
         <Reference Include="$(Dredge)\DREDGE_Data\Managed\Assembly-CSharp-firstpass.dll" Private="false" Publicize="true"/>
         <Reference Include="$(Dredge)\DREDGE_Data\Managed\Cinemachine.dll" Private="false" Publicize="true"/>
         <Reference Include="$(Dredge)\DREDGE_Data\Managed\Coffee.UIParticle.dll" Private="false" Publicize="true"/>
@@ -34,7 +40,6 @@
         <Reference Include="$(Dredge)\DREDGE_Data\Managed\DemiLib.dll" Private="false" Publicize="true"/>
         <Reference Include="$(Dredge)\DREDGE_Data\Managed\DOTween.dll" Private="false" Publicize="true"/>
         <Reference Include="$(Dredge)\DREDGE_Data\Managed\DOTweenPro.dll" Private="false" Publicize="true"/>
-        <Reference Include="$(Dredge)\DREDGE_Data\Managed\Assembly-CSharp.dll" Private="false" Publicize="true"/>
         <Reference Include="$(Dredge)\DREDGE_Data\Managed\Febucci.TextAnimator.Runtime.dll" Private="false" Publicize="true"/>
         <Reference Include="$(Dredge)\DREDGE_Data\Managed\GalaxyCSharp.dll" Private="false" Publicize="true"/>
         <Reference Include="$(Dredge)\DREDGE_Data\Managed\Google.Protobuf.dll" Private="false" Publicize="true"/>
@@ -155,7 +160,7 @@
     </ItemGroup>
 
     <ItemGroup Condition="'$(DontUseDredgeGameLibs)' != 'true'">
-        <PackageReference Include="DredgeGameLibs" Version="1.*"/>
+        <PackageReference Include="DredgeGameLibs" Version="1.5.*"/>
     </ItemGroup>
 
     <ItemGroup Condition="'$(DontReferenceWinch)' != 'true'">

@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFramework>net48</TargetFramework>
-		<LangVersion>latest</LangVersion>
+		<LangVersion>default</LangVersion>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<Nullable>enable</Nullable>
 		<NuspecFile>Winch.nuspec</NuspecFile>
@@ -12,6 +12,7 @@
 		<DontReferenceWinch>true</DontReferenceWinch>
 		<OutputFolder>$(Dredge)Winch</OutputFolder>
 		<DontCopyBuiltFiles>true</DontCopyBuiltFiles>
+			<DontUseDredgeGameLibs>true</DontUseDredgeGameLibs>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -57,6 +58,11 @@
 	    <LastGenOutput>Resources.Designer.cs</LastGenOutput>
 	    <Generator>ResXFileCodeGenerator</Generator>
 	  </EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Api\GameReferences\" />
+	  <Folder Include="bin\" />
 	</ItemGroup>
 	
 	<Import Condition="Exists('..\..\dredge.targets')" Project="..\..\dredge.targets" />

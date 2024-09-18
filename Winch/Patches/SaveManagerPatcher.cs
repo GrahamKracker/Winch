@@ -115,6 +115,13 @@ internal static class SaveManagerPatcher
         }
     }
 
+    [HarmonyPrefix]
+    [HarmonyPatch(nameof(SaveManager.DeleteSaveFile))]
+    public static bool DeleteSaveFile_Prefix(SaveManager __instance, int slot)
+    {
+        return false;
+    }
+
     [HarmonyPostfix]
     [HarmonyPatch(nameof(SaveManager.DeleteSaveFile))]
     public static void DeleteSaveFile(SaveManager __instance, int slot)

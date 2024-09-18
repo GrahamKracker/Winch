@@ -28,7 +28,7 @@ public class DredgeContractResolver : DefaultContractResolver
         return true;
     }
 
-    protected override List<MemberInfo> GetSerializableMembers(Type objectType)
+    public override List<MemberInfo> GetSerializableMembers(Type objectType)
     {
         var members = base.GetSerializableMembers(objectType);
         return members.Where(FilterMember).ToList();
