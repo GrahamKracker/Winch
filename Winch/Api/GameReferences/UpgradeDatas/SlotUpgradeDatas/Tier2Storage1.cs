@@ -1,4 +1,4 @@
-namespace Winch.Api.Generators.GameReferences.UpgradeDatas.SlotUpgradeDatas;
+namespace Winch.Api.GameReferences.UpgradeDatas.SlotUpgradeDatas;
 public static class Tier2Storage1
 {
     public static SlotUpgradeData Tier2Storage1Instance = (SlotUpgradeData)System.Linq.Enumerable.First(ScriptableObjectInstances.UpgradeDatas, x => x.name == "Tier2Storage1");

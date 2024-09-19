@@ -1,4 +1,4 @@
-namespace Winch.Api.Generators.GameReferences.AchievementDatas;
+namespace Winch.Api.GameReferences.AchievementDatas;
 public static class DLC_4_1
 {
     public static AchievementData DLC_4_1Instance = (AchievementData)System.Linq.Enumerable.First(ScriptableObjectInstances.AchievementDatas, x => x.name == "DLC_4_1");

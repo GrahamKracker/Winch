@@ -1,4 +1,4 @@
-namespace Winch.Api.Generators.GameReferences.AchievementDatas;
+namespace Winch.Api.GameReferences.AchievementDatas;
 public static class SELL_FISH_VALUE_1
 {
     public static AchievementData SELL_FISH_VALUE_1Instance = (AchievementData)System.Linq.Enumerable.First(ScriptableObjectInstances.AchievementDatas, x => x.name == "SELL_FISH_VALUE_1");

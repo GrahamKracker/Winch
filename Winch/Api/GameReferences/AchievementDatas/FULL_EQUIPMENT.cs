@@ -1,4 +1,4 @@
-namespace Winch.Api.Generators.GameReferences.AchievementDatas;
+namespace Winch.Api.GameReferences.AchievementDatas;
 public static class FULL_EQUIPMENT
 {
     public static AchievementData FULL_EQUIPMENTInstance = (AchievementData)System.Linq.Enumerable.First(ScriptableObjectInstances.AchievementDatas, x => x.name == "FULL_EQUIPMENT");

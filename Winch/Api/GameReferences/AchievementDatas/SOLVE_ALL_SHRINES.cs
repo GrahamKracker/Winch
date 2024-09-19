@@ -1,4 +1,4 @@
-namespace Winch.Api.Generators.GameReferences.AchievementDatas;
+namespace Winch.Api.GameReferences.AchievementDatas;
 public static class SOLVE_ALL_SHRINES
 {
     public static AchievementData SOLVE_ALL_SHRINESInstance = (AchievementData)System.Linq.Enumerable.First(ScriptableObjectInstances.AchievementDatas, x => x.name == "SOLVE_ALL_SHRINES");

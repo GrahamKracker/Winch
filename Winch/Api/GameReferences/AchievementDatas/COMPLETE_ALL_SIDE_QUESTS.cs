@@ -1,4 +1,4 @@
-namespace Winch.Api.Generators.GameReferences.AchievementDatas;
+namespace Winch.Api.GameReferences.AchievementDatas;
 public static class COMPLETE_ALL_SIDE_QUESTS
 {
     public static AchievementData COMPLETE_ALL_SIDE_QUESTSInstance = (AchievementData)System.Linq.Enumerable.First(ScriptableObjectInstances.AchievementDatas, x => x.name == "COMPLETE_ALL_SIDE_QUESTS");

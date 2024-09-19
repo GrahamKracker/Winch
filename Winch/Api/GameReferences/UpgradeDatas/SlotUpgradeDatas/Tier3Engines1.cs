@@ -1,4 +1,4 @@
-namespace Winch.Api.Generators.GameReferences.UpgradeDatas.SlotUpgradeDatas;
+namespace Winch.Api.GameReferences.UpgradeDatas.SlotUpgradeDatas;
 public static class Tier3Engines1
 {
     public static SlotUpgradeData Tier3Engines1Instance = (SlotUpgradeData)System.Linq.Enumerable.First(ScriptableObjectInstances.UpgradeDatas, x => x.name == "Tier3Engines1");

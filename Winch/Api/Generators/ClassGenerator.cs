@@ -229,7 +229,7 @@ internal class ClassGenerator
             var dir = Path.Combine(@"C:\Users\gjguz\source\repos\DREDGE\Winch\Winch\Api\GameReferences\", typeHierarchy.ToString()); //todo: dont hardcode this
             Directory.CreateDirectory(dir);
             File.WriteAllText(Path.Combine(dir, $"{obj.name}.cs"),
-                Generate(obj, baseType, typeof(ClassGenerator).Namespace + ".GameReferences." + typeHierarchy.ToString().Replace(@"\", ".")));
+                Generate(obj, baseType, typeof(ClassGenerator).Namespace.Substring(0, typeof(ClassGenerator).Namespace.LastIndexOf('.')) + ".GameReferences." + typeHierarchy.ToString().Replace(@"\", ".")));
         }
         catch (Exception e)
         {

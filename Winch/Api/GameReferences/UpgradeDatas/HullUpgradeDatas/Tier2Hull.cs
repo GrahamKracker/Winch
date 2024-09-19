@@ -1,4 +1,4 @@
-namespace Winch.Api.Generators.GameReferences.UpgradeDatas.HullUpgradeDatas;
+namespace Winch.Api.GameReferences.UpgradeDatas.HullUpgradeDatas;
 public static class Tier2Hull
 {
     public static HullUpgradeData Tier2HullInstance = (HullUpgradeData)System.Linq.Enumerable.First(ScriptableObjectInstances.UpgradeDatas, x => x.name == "Tier2Hull");

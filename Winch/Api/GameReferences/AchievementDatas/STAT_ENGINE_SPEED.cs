@@ -1,4 +1,4 @@
-namespace Winch.Api.Generators.GameReferences.AchievementDatas;
+namespace Winch.Api.GameReferences.AchievementDatas;
 public static class STAT_ENGINE_SPEED
 {
     public static AchievementData STAT_ENGINE_SPEEDInstance = (AchievementData)System.Linq.Enumerable.First(ScriptableObjectInstances.AchievementDatas, x => x.name == "STAT_ENGINE_SPEED");

@@ -1,4 +1,4 @@
-namespace Winch.Api.Generators.GameReferences.AchievementDatas;
+namespace Winch.Api.GameReferences.AchievementDatas;
 public static class DISCOVER_ALL_DOCKS
 {
     public static AchievementData DISCOVER_ALL_DOCKSInstance = (AchievementData)System.Linq.Enumerable.First(ScriptableObjectInstances.AchievementDatas, x => x.name == "DISCOVER_ALL_DOCKS");

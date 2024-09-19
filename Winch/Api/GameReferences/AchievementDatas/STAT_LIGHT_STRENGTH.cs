@@ -1,4 +1,4 @@
-namespace Winch.Api.Generators.GameReferences.AchievementDatas;
+namespace Winch.Api.GameReferences.AchievementDatas;
 public static class STAT_LIGHT_STRENGTH
 {
     public static AchievementData STAT_LIGHT_STRENGTHInstance = (AchievementData)System.Linq.Enumerable.First(ScriptableObjectInstances.AchievementDatas, x => x.name == "STAT_LIGHT_STRENGTH");

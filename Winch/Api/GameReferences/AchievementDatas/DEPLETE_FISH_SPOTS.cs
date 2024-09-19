@@ -1,4 +1,4 @@
-namespace Winch.Api.Generators.GameReferences.AchievementDatas;
+namespace Winch.Api.GameReferences.AchievementDatas;
 public static class DEPLETE_FISH_SPOTS
 {
     public static AchievementData DEPLETE_FISH_SPOTSInstance = (AchievementData)System.Linq.Enumerable.First(ScriptableObjectInstances.AchievementDatas, x => x.name == "DEPLETE_FISH_SPOTS");

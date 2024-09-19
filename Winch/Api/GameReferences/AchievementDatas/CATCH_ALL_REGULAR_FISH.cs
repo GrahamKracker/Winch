@@ -1,4 +1,4 @@
-namespace Winch.Api.Generators.GameReferences.AchievementDatas;
+namespace Winch.Api.GameReferences.AchievementDatas;
 public static class CATCH_ALL_REGULAR_FISH
 {
     public static AchievementData CATCH_ALL_REGULAR_FISHInstance = (AchievementData)System.Linq.Enumerable.First(ScriptableObjectInstances.AchievementDatas, x => x.name == "CATCH_ALL_REGULAR_FISH");

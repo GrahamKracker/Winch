@@ -1,4 +1,4 @@
-namespace Winch.Api.Generators.GameReferences.AchievementDatas;
+namespace Winch.Api.GameReferences.AchievementDatas;
 public static class COMPLETE_CHAPTER_5
 {
     public static AchievementData COMPLETE_CHAPTER_5Instance = (AchievementData)System.Linq.Enumerable.First(ScriptableObjectInstances.AchievementDatas, x => x.name == "COMPLETE_CHAPTER_5");
