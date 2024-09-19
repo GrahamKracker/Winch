@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.ItemDatas.NonSpatialItemDatas.MessageItemDatas;
+namespace Winch.Api.Generators.GameReferences.ItemDatas.NonSpatialItemDatas.MessageItemDatas;
 public static class MessageTPR1
 {
     public static MessageItemData MessageTPR1Instance = (MessageItemData)System.Linq.Enumerable.First(ScriptableObjectInstances.ItemDatas, x => x.name == "MessageTPR1");

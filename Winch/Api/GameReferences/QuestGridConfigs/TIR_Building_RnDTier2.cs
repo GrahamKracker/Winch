@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.QuestGridConfigs;
+namespace Winch.Api.Generators.GameReferences.QuestGridConfigs;
 public static class TIR_Building_RnDTier2
 {
     public static QuestGridConfig TIR_Building_RnDTier2Instance = (QuestGridConfig)System.Linq.Enumerable.First(ScriptableObjectInstances.QuestGridConfigs, x => x.name == "TIR_Building_RnDTier2");

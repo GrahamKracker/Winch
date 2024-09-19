@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.QuestGridConfigs;
+namespace Winch.Api.Generators.GameReferences.QuestGridConfigs;
 public static class HoodedFigure3C
 {
     public static QuestGridConfig HoodedFigure3CInstance = (QuestGridConfig)System.Linq.Enumerable.First(ScriptableObjectInstances.QuestGridConfigs, x => x.name == "HoodedFigure3C");

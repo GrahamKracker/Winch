@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.QuestGridConfigs;
+namespace Winch.Api.Generators.GameReferences.QuestGridConfigs;
 public static class ResearchMachineInstallReward
 {
     public static QuestGridConfig ResearchMachineInstallRewardInstance = (QuestGridConfig)System.Linq.Enumerable.First(ScriptableObjectInstances.QuestGridConfigs, x => x.name == "ResearchMachineInstallReward");

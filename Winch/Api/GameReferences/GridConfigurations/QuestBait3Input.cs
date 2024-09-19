@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.GridConfigurations;
+namespace Winch.Api.Generators.GameReferences.GridConfigurations;
 public static class QuestBait3Input
 {
     public static GridConfiguration QuestBait3InputInstance = (GridConfiguration)System.Linq.Enumerable.First(ScriptableObjectInstances.GridConfigurations, x => x.name == "QuestBait3Input");

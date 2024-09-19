@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.QuestGridConfigs;
+namespace Winch.Api.Generators.GameReferences.QuestGridConfigs;
 public static class TIR_Canister_Return
 {
     public static QuestGridConfig TIR_Canister_ReturnInstance = (QuestGridConfig)System.Linq.Enumerable.First(ScriptableObjectInstances.QuestGridConfigs, x => x.name == "TIR_Canister_Return");

@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.ItemDatas.SpatialItemDatas.HarvestableItemDatas.FishItemDatas;
+namespace Winch.Api.Generators.GameReferences.ItemDatas.SpatialItemDatas.HarvestableItemDatas.FishItemDatas;
 public static class Gulper_Eel_Aberration_1
 {
     public static FishItemData Gulper_Eel_Aberration_1Instance = (FishItemData)System.Linq.Enumerable.First(ScriptableObjectInstances.ItemDatas, x => x.name == "Gulper_Eel_Aberration_1");

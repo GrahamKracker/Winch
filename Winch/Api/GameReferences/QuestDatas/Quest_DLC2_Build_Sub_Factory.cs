@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.QuestDatas;
+namespace Winch.Api.Generators.GameReferences.QuestDatas;
 public static class Quest_DLC2_Build_Sub_Factory
 {
     public static QuestData Quest_DLC2_Build_Sub_FactoryInstance = (QuestData)System.Linq.Enumerable.First(ScriptableObjectInstances.QuestDatas, x => x.name == "Quest_DLC2_Build_Sub_Factory");

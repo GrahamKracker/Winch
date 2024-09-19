@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.QuestGridConfigs;
+namespace Winch.Api.Generators.GameReferences.QuestGridConfigs;
 public static class TIR_DefensesOverride
 {
     public static QuestGridConfig TIR_DefensesOverrideInstance = (QuestGridConfig)System.Linq.Enumerable.First(ScriptableObjectInstances.QuestGridConfigs, x => x.name == "TIR_DefensesOverride");

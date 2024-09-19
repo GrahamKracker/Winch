@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.ItemDatas.SpatialItemDatas.HarvestableItemDatas.FishItemDatas;
+namespace Winch.Api.Generators.GameReferences.ItemDatas.SpatialItemDatas.HarvestableItemDatas.FishItemDatas;
 public static class Crown_of_Thorns
 {
     public static FishItemData Crown_of_ThornsInstance = (FishItemData)System.Linq.Enumerable.First(ScriptableObjectInstances.ItemDatas, x => x.name == "Crown_of_Thorns");

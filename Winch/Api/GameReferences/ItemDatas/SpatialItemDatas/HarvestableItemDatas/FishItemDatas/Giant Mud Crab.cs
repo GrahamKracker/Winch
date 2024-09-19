@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.ItemDatas.SpatialItemDatas.HarvestableItemDatas.FishItemDatas;
+namespace Winch.Api.Generators.GameReferences.ItemDatas.SpatialItemDatas.HarvestableItemDatas.FishItemDatas;
 public static class Giant_Mud_Crab
 {
     public static FishItemData Giant_Mud_CrabInstance = (FishItemData)System.Linq.Enumerable.First(ScriptableObjectInstances.ItemDatas, x => x.name == "Giant_Mud_Crab");

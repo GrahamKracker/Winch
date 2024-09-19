@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.GridConfigurations;
+namespace Winch.Api.Generators.GameReferences.GridConfigurations;
 public static class DSStatue
 {
     public static GridConfiguration DSStatueInstance = (GridConfiguration)System.Linq.Enumerable.First(ScriptableObjectInstances.GridConfigurations, x => x.name == "DSStatue");

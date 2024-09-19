@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.ItemDatas.SpatialItemDatas.HarvestableItemDatas.FishItemDatas;
+namespace Winch.Api.Generators.GameReferences.ItemDatas.SpatialItemDatas.HarvestableItemDatas.FishItemDatas;
 public static class Nautilus_Aberration_1
 {
     public static FishItemData Nautilus_Aberration_1Instance = (FishItemData)System.Linq.Enumerable.First(ScriptableObjectInstances.ItemDatas, x => x.name == "Nautilus_Aberration_1");

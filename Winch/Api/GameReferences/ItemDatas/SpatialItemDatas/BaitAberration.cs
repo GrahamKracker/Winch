@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.ItemDatas.SpatialItemDatas;
+namespace Winch.Api.Generators.GameReferences.ItemDatas.SpatialItemDatas;
 public static class BaitAberration
 {
     public static SpatialItemData BaitAberrationInstance = (SpatialItemData)System.Linq.Enumerable.First(ScriptableObjectInstances.ItemDatas, x => x.name == "BaitAberration");

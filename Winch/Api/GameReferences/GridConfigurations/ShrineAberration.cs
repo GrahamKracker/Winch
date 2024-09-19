@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.GridConfigurations;
+namespace Winch.Api.Generators.GameReferences.GridConfigurations;
 public static class ShrineAberration
 {
     public static GridConfiguration ShrineAberrationInstance = (GridConfiguration)System.Linq.Enumerable.First(ScriptableObjectInstances.GridConfigurations, x => x.name == "ShrineAberration");

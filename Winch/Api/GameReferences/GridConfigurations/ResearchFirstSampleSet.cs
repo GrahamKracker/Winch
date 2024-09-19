@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.GridConfigurations;
+namespace Winch.Api.Generators.GameReferences.GridConfigurations;
 public static class ResearchFirstSampleSet
 {
     public static GridConfiguration ResearchFirstSampleSetInstance = (GridConfiguration)System.Linq.Enumerable.First(ScriptableObjectInstances.GridConfigurations, x => x.name == "ResearchFirstSampleSet");

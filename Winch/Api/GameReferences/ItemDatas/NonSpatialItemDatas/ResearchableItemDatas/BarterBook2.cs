@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.ItemDatas.NonSpatialItemDatas.ResearchableItemDatas;
+namespace Winch.Api.Generators.GameReferences.ItemDatas.NonSpatialItemDatas.ResearchableItemDatas;
 public static class BarterBook2
 {
     public static ResearchableItemData BarterBook2Instance = (ResearchableItemData)System.Linq.Enumerable.First(ScriptableObjectInstances.ItemDatas, x => x.name == "BarterBook2");

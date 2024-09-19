@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.MapMarkerDatas;
+namespace Winch.Api.Generators.GameReferences.MapMarkerDatas;
 public static class flame_3
 {
     public static MapMarkerData flame_3Instance = (MapMarkerData)System.Linq.Enumerable.First(ScriptableObjectInstances.MapMarkerDatas, x => x.name == "flame_3");

@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.WorldEventDatas;
+namespace Winch.Api.Generators.GameReferences.WorldEventDatas;
 public static class Splash
 {
     public static WorldEventData SplashInstance = (WorldEventData)System.Linq.Enumerable.First(ScriptableObjectInstances.WorldEventDatas, x => x.name == "Splash");

@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.MapMarkerDatas;
+namespace Winch.Api.Generators.GameReferences.MapMarkerDatas;
 public static class camera_equipment
 {
     public static MapMarkerData camera_equipmentInstance = (MapMarkerData)System.Linq.Enumerable.First(ScriptableObjectInstances.MapMarkerDatas, x => x.name == "camera_equipment");

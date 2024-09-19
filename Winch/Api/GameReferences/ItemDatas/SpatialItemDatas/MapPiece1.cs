@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.ItemDatas.SpatialItemDatas;
+namespace Winch.Api.Generators.GameReferences.ItemDatas.SpatialItemDatas;
 public static class MapPiece1
 {
     public static SpatialItemData MapPiece1Instance = (SpatialItemData)System.Linq.Enumerable.First(ScriptableObjectInstances.ItemDatas, x => x.name == "MapPiece1");

@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.WorldEventDatas;
+namespace Winch.Api.Generators.GameReferences.WorldEventDatas;
 public static class GhostBoat_Pirate
 {
     public static WorldEventData GhostBoat_PirateInstance = (WorldEventData)System.Linq.Enumerable.First(ScriptableObjectInstances.WorldEventDatas, x => x.name == "GhostBoat_Pirate");

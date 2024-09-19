@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.ItemDatas.SpatialItemDatas;
+namespace Winch.Api.Generators.GameReferences.ItemDatas.SpatialItemDatas;
 public static class RepairPot
 {
     public static SpatialItemData RepairPotInstance = (SpatialItemData)System.Linq.Enumerable.First(ScriptableObjectInstances.ItemDatas, x => x.name == "RepairPot");

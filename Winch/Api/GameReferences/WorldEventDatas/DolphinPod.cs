@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.WorldEventDatas;
+namespace Winch.Api.Generators.GameReferences.WorldEventDatas;
 public static class DolphinPod
 {
     public static WorldEventData DolphinPodInstance = (WorldEventData)System.Linq.Enumerable.First(ScriptableObjectInstances.WorldEventDatas, x => x.name == "DolphinPod");

@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.ItemDatas.SpatialItemDatas;
+namespace Winch.Api.Generators.GameReferences.ItemDatas.SpatialItemDatas;
 public static class Rot
 {
     public static SpatialItemData RotInstance = (SpatialItemData)System.Linq.Enumerable.First(ScriptableObjectInstances.ItemDatas, x => x.name == "Rot");

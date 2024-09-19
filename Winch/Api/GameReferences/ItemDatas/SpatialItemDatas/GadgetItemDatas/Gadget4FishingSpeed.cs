@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.ItemDatas.SpatialItemDatas.GadgetItemDatas;
+namespace Winch.Api.Generators.GameReferences.ItemDatas.SpatialItemDatas.GadgetItemDatas;
 public static class Gadget4FishingSpeed
 {
     public static GadgetItemData Gadget4FishingSpeedInstance = (GadgetItemData)System.Linq.Enumerable.First(ScriptableObjectInstances.ItemDatas, x => x.name == "Gadget4FishingSpeed");

@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.QuestDatas;
+namespace Winch.Api.Generators.GameReferences.QuestDatas;
 public static class Quest_Courier
 {
     public static QuestData Quest_CourierInstance = (QuestData)System.Linq.Enumerable.First(ScriptableObjectInstances.QuestDatas, x => x.name == "Quest_Courier");

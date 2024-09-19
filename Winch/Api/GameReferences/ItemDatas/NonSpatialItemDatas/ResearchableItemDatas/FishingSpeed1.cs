@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.ItemDatas.NonSpatialItemDatas.ResearchableItemDatas;
+namespace Winch.Api.Generators.GameReferences.ItemDatas.NonSpatialItemDatas.ResearchableItemDatas;
 public static class FishingSpeed1
 {
     public static ResearchableItemData FishingSpeed1Instance = (ResearchableItemData)System.Linq.Enumerable.First(ScriptableObjectInstances.ItemDatas, x => x.name == "FishingSpeed1");

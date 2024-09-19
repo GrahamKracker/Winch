@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.MapMarkerDatas;
+namespace Winch.Api.Generators.GameReferences.MapMarkerDatas;
 public static class family_crest
 {
     public static MapMarkerData family_crestInstance = (MapMarkerData)System.Linq.Enumerable.First(ScriptableObjectInstances.MapMarkerDatas, x => x.name == "family_crest");

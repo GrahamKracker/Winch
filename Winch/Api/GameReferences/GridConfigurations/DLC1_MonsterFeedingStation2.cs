@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.GridConfigurations;
+namespace Winch.Api.Generators.GameReferences.GridConfigurations;
 public static class DLC1_MonsterFeedingStation2
 {
     public static GridConfiguration DLC1_MonsterFeedingStation2Instance = (GridConfiguration)System.Linq.Enumerable.First(ScriptableObjectInstances.GridConfigurations, x => x.name == "DLC1_MonsterFeedingStation2");

@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.QuestDatas;
+namespace Winch.Api.Generators.GameReferences.QuestDatas;
 public static class Quest_RareFishSub1
 {
     public static QuestData Quest_RareFishSub1Instance = (QuestData)System.Linq.Enumerable.First(ScriptableObjectInstances.QuestDatas, x => x.name == "Quest_RareFishSub1");

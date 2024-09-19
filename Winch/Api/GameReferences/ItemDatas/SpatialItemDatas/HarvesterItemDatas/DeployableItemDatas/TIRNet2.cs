@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.ItemDatas.SpatialItemDatas.HarvesterItemDatas.DeployableItemDatas;
+namespace Winch.Api.Generators.GameReferences.ItemDatas.SpatialItemDatas.HarvesterItemDatas.DeployableItemDatas;
 public static class TIRNet2
 {
     public static DeployableItemData TIRNet2Instance = (DeployableItemData)System.Linq.Enumerable.First(ScriptableObjectInstances.ItemDatas, x => x.name == "TIRNet2");

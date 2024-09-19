@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.ItemDatas.SpatialItemDatas.GadgetItemDatas;
+namespace Winch.Api.Generators.GameReferences.ItemDatas.SpatialItemDatas.GadgetItemDatas;
 public static class Gadget6TrawlCatchRate
 {
     public static GadgetItemData Gadget6TrawlCatchRateInstance = (GadgetItemData)System.Linq.Enumerable.First(ScriptableObjectInstances.ItemDatas, x => x.name == "Gadget6TrawlCatchRate");

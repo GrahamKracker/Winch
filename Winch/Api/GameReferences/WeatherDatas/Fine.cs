@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.WeatherDatas;
+namespace Winch.Api.Generators.GameReferences.WeatherDatas;
 public static class Fine
 {
     public static WeatherData FineInstance = (WeatherData)System.Linq.Enumerable.First(ScriptableObjectInstances.WeatherDatas, x => x.name == "Fine");

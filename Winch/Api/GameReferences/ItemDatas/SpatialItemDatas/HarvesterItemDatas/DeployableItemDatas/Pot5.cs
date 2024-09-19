@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.ItemDatas.SpatialItemDatas.HarvesterItemDatas.DeployableItemDatas;
+namespace Winch.Api.Generators.GameReferences.ItemDatas.SpatialItemDatas.HarvesterItemDatas.DeployableItemDatas;
 public static class Pot5
 {
     public static DeployableItemData Pot5Instance = (DeployableItemData)System.Linq.Enumerable.First(ScriptableObjectInstances.ItemDatas, x => x.name == "Pot5");

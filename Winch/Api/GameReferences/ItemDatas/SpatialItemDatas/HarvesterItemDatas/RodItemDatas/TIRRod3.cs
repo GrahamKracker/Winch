@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.ItemDatas.SpatialItemDatas.HarvesterItemDatas.RodItemDatas;
+namespace Winch.Api.Generators.GameReferences.ItemDatas.SpatialItemDatas.HarvesterItemDatas.RodItemDatas;
 public static class TIRRod3
 {
     public static RodItemData TIRRod3Instance = (RodItemData)System.Linq.Enumerable.First(ScriptableObjectInstances.ItemDatas, x => x.name == "TIRRod3");

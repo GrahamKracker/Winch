@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.GridConfigurations;
+namespace Winch.Api.Generators.GameReferences.GridConfigurations;
 public static class TIR_Product_ResearchAndDevelopment
 {
     public static GridConfiguration TIR_Product_ResearchAndDevelopmentInstance = (GridConfiguration)System.Linq.Enumerable.First(ScriptableObjectInstances.GridConfigurations, x => x.name == "TIR_Product_ResearchAndDevelopment");

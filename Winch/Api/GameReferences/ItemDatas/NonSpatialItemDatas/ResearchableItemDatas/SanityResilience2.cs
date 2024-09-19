@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.ItemDatas.NonSpatialItemDatas.ResearchableItemDatas;
+namespace Winch.Api.Generators.GameReferences.ItemDatas.NonSpatialItemDatas.ResearchableItemDatas;
 public static class SanityResilience2
 {
     public static ResearchableItemData SanityResilience2Instance = (ResearchableItemData)System.Linq.Enumerable.First(ScriptableObjectInstances.ItemDatas, x => x.name == "SanityResilience2");

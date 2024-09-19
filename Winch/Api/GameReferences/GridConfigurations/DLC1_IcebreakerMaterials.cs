@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.GridConfigurations;
+namespace Winch.Api.Generators.GameReferences.GridConfigurations;
 public static class DLC1_IcebreakerMaterials
 {
     public static GridConfiguration DLC1_IcebreakerMaterialsInstance = (GridConfiguration)System.Linq.Enumerable.First(ScriptableObjectInstances.GridConfigurations, x => x.name == "DLC1_IcebreakerMaterials");

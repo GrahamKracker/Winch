@@ -1,4 +1,4 @@
-namespace Winch.Api.GameReferences.QuestGridConfigs;
+namespace Winch.Api.Generators.GameReferences.QuestGridConfigs;
 public static class DLC1_MonsterFeedingStation4
 {
     public static QuestGridConfig DLC1_MonsterFeedingStation4Instance = (QuestGridConfig)System.Linq.Enumerable.First(ScriptableObjectInstances.QuestGridConfigs, x => x.name == "DLC1_MonsterFeedingStation4");
